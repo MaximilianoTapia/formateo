@@ -14,16 +14,16 @@
 /*barra navegación*/
 .nav{
     width: 100%;
-    border: 2px solid yellow;
-    background-color: rgb(185, 185, 228);
+    border: 2px solid rgb(0, 140, 255);
+    background: rgb(255,76,0);
+    background: linear-gradient(180deg, rgba(255,76,0,1) 7%, rgba(255,158,0,1) 76%);
     display: flex;
     justify-content: space-between;
-    padding: 0.5%;
 }
 
 .nav-izquierda{
     width: 100%;
-    border: 2px solid palegreen;
+    border: 2px solid rgb(30, 155, 30);
 }
 
 /*nav logo*/
@@ -35,21 +35,34 @@
 
 .nav-derecha{
     width: 100%;
-    border: 2px solid blue;
+    height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.navd-arriba{
+    width: 100%;
+}
+
+.navd-abajo{
+    width: 100%;
+    display: flex ;
+    justify-content: space-around;
 }
 
 /*nav botones*/
-.nav-derecha button{
-    background-color: rgb(152, 159, 255);
-    padding: 10px 20px;
-    border: 2px solid white;
-    color: white;
+.navd-abajo button{
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.897);
+    padding: 5px 15px;
+    border: 1px solid black;
 }
 
 /*nav input*/
-.nav-derecha input{
+.navd-arriba input{
     border: 2px solid rgb(37, 37, 37);
     padding: 5px 10px;
+    width: 50%;
 }
