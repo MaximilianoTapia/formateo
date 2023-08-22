@@ -26,7 +26,7 @@
     width: 6vw;
     height: 12vh;
     margin: 5px 30px;
-    border: 4px solid rgb(140, 0, 255);
+    border: 4px solid rgb(0, 81, 255);
 }
 
 /*nav botones*/
@@ -53,12 +53,16 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 5vh 0;
 }
 
 .baner img{
-    width: 80vw;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.baner h2{
+    display: inline-block;
 }
 
 /*cuadros informativos*/
