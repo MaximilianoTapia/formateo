@@ -51,54 +51,57 @@
 
 .baner{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-}
-
-.baner img{
-    width: 100%;
-    height: 100%;
+    background-image: url(img/baaner.jpg);
     opacity: 1;
 }
 
-.baner h2{
-    display: inline-block;
+.baner h3{
+    color: white;
+    font-size: 30px;
 }
 
 /*cuadros informativos*/
 
 .informacion{
-    border: 2px solid blue;
+    border: 2px solid rgb(123, 255, 0);
     width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
 .info1{
     border: 3px solid red;
     display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(140, 0, 255);
-    color: white;
-}
-
-.info1-titulo{
-    display: flex;
     flex-direction: column;
-    border: 2px solid rgb(226, 168, 43);
+    color: white;
     align-items: center;
 }
 
-.info1-titulo h3{
-    border: 2px solid red;
+.info1 h2{
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    margin: 1vw;
+
 }
 
-.info1-titulo img{
+.info1 img{
     border: 2px solid green;
-    width: 8vw;
+    width: 9vw;
+    margin: 1vw;
 }
 
-.info1-texto{
+.info1 h3{
+    border: 2px solid yellow;
+    color: black;
+}
+
+.info1 p{
     border: 2px solid palegreen;
+    color: black;
+    margin: 1vw;
+    padding: 1vw;
 }
